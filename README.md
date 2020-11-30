@@ -8,3 +8,5 @@ Apps Script lets us do more with standard Gapps, which is all powered by Javascr
 
 Learn more:
 	- https://developers.google.com/apps-script/
+
+<hr>
