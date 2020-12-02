@@ -1,4 +1,4 @@
-function searchAndHighlight() {
+function searchFindAndHighlight() {
   var ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var ui = SpreadsheetApp.getUi();
   var response = ui.prompt('Looking for something?', 'Tell us and we\'ll highlight it for you', ui.ButtonSet.OK_CANCEL);
