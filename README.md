@@ -1,6 +1,6 @@
-# google-apps-script
+<h1 align="center">Google Apps Script</h1>
 
-<h1>What is Apps Script?</h1>
+<h1 align="center">What is Apps Script?</h1>
 
 With Apps Script we can power our favorite Google apps -- like Gmail, Docs, Sheets, Maps, Calendar, Drive and more.
 
