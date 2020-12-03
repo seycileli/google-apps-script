@@ -6,11 +6,21 @@
           <> Script Editor
             
   Script editor should now be open, because this is a bounded script. No need to call the sheet by Id() or Url() i.g.
+  
   Add the code below,
-  Hit debug -> then run
+  Then select File -> Create -> HTML File,
+  give it the same name 'aboutUs' -> an aboutUs.html file is now created
+  Next copy and paste.
+  
+  Once finished.
+  
+  Hit debug -> then Run
+  
   Allow file permissions
-  Afterwards, you should now see a new menu option in your Sheets called 'Advance'
+  
+  Lastly, you should now see a new menu option in your Sheets called 'Advance'
   Then select 'About Us'
+  You should now see your HTML file
 */
 
 function onOpen(e) {
