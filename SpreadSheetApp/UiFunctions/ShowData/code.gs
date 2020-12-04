@@ -11,3 +11,16 @@ function sidebarMenu() {
   
   SpreadsheetApp.getUi().showSidebar(html); //passing variable name here
 }
+
+function getData(data) {
+  Logger.log(data);
+
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getActiveSheet();
+  var theValue = sheet.getDataRange().getValues();
+  
+  var rowNumber = sheet.getActiveCell().getRow();
+  //var columnNumber = sheet.getActiveCell().getColumn();
+  
+  return {'cell': theValue[rowNumber -1], 'headings': theValue[0]};
+}
