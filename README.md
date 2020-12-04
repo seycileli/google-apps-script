@@ -2,9 +2,9 @@
 
 <h1 align="center">What is Apps Script?</h1>
 
-With Apps Script we can power our favorite Google apps -- like Gmail, Docs, Sheets, Maps, Calendar, Drive and more.
+With Apps Script we can power our favorite Google Applications -- such as Gmail, Docs, Sheets, Maps, Calendar, Drive and more.
 
-Apps Script lets us do more with standard Gapps, which is all powered by Javascript. We can create and customize functionalities into our Application.
+Apps Script lets us do more with standard Google Apps, which is all powered by Javascript. We can create and customize functionalities into our Application.
 
 Learn more:
 	- https://developers.google.com/apps-script/
