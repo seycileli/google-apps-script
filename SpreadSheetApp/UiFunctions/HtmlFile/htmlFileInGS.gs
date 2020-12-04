@@ -48,9 +48,7 @@ function htmlService() {
 function htmlServiceTwo() {
   var ui = SpreadsheetApp.getUi();
   var html = HtmlService.createTemplateFromFile('aboutUs') //html file name that we've created
-  .evaluate().setSandboxMode(HtmlService.SandboxMode.IFRAME)
-  .setHeight(400)
-  .setWidth(550);
+  .evaluate().setSandboxMode(HtmlService.SandboxMode.IFRAME);
   
   SpreadsheetApp.getUi().showSidebar(html);
 }
