@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    
+    <h1>Get Info</h1>
+    <hr>
+    
+      <input id="myData" value="test">
+      <button id="output">Click Here</button>
+    
+    <!-- JavaScript below -->
+    <script>
+      var output = doucment.getElementById('output');
+      output.addEventListener('click', gsData);
+      
+      function gsData() {
+        var myData = document.getElementById('myData').value;
+        google.script.run.withSuccessHandler(onSuccess).getSheetData(myData);
+      }
+      
+      function onSuccess(data) {
+      console.log(data);
+        var html = '';
+        
+        for (var i = 0; i < data.headings.length; i++) {
+          html += data.headings[x] + ' = ' + data.cell[i] + '<br>'; 
+        }
+        
+        output.innerHTML = data.html;
+      }
+      
+    </script>
+    
+  </body>
+</html>
+
