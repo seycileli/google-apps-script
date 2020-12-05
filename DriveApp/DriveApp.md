@@ -3,7 +3,6 @@
 <hr>
 
 Allows scripts to create, find, and modify files and folders in Google Drive.
-<br>
 
-To learn more:<br>
+To learn more:
 https://developers.google.com/apps-script/reference/drive/drive-app
