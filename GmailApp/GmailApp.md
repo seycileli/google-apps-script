@@ -1,7 +1,7 @@
 <h1 align="center">Google Apps Script</h1>
-
-<h1 align="center">GmailApp</h1>
 <hr>
+<h1 align="center">class <strong>GmailApp</strong></h1>
+
 
 <p>Provides access to Gmail threads, messages, and labels.</p>
 
