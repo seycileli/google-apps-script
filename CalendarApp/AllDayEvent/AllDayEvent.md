@@ -1,7 +1,7 @@
 <h1>Google Apps Script</h1>
 <h2>Class CalendarApp</h2>
 
-<h2>How To:</h2><p> Set an All Day event via Google Apps Script Tutorial</p>
+<h2>How To:</h2><p> Set an All Day Event via Google Apps Script Tutorial</p>
 
 <h3>Firstly</h3>
 We'll have to create our instance variable and assign its value to JS object Date, within the params we can place our date.
