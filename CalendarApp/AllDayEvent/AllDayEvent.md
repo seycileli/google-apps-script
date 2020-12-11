@@ -1,7 +1,7 @@
 <h1>Google Apps Script</h1>
 <h2>Class CalendarApp</h2>
 
-<h2>How To:</h2><p> Set an All Day event via Google Apps Script</p>
+<h2>How To:</h2><p> Set an All Day event via Google Apps Script Tutorial</p>
 
 <h3>Firstly</h3>
 We'll have to create our instance variable and assign its value to JS object Date, within the params we can place our date.
@@ -36,6 +36,8 @@ Let's log this out and check if it works!
 
 <hr>
 <h1>More info:</h1>
+This is a simple 'getting started' tutorial.
+
 You can do a lot more with this, besides just adding the Calendar Title and Date. You can add a starting and end date, location, 
 also a daily or weekly recurrence.
 
