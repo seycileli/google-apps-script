@@ -57,4 +57,6 @@ Therefore we'll pass in the first variable we've created when we assigned it's v
 
 <a href="https://github.com/seycileli/google-apps-script/blob/main/GmailApp/GetChatThreads/code.gs">End result</a>
 
+After completion and running the code, you should be emailed with the number of threads from the chat.
+
 </div>
