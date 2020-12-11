@@ -9,3 +9,10 @@ Apps Script lets us do more with standard Google Apps, which is all powered by J
 Learn more -> <a href="https://developers.google.com/apps-script/">here</a>
 
 <hr>
+<h1>What's going on here? 😀 </h1>
+This is an Apps Sript tutorial
+
+You can find a lot of source codes here with .md explaining the code and what's going on.
+
+This will help with getting started and becoming a better Apps Script developer.
+<hr>
