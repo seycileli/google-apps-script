@@ -6,7 +6,6 @@ With Apps Script we can power our favorite Google Applications -- such as Gmail,
 
 Apps Script lets us do more with standard Google Apps, which is all powered by Javascript. We can create and customize functionalities into our Application.
 
-Learn more:
-	- https://developers.google.com/apps-script/
+Learn more -> <a href="https://developers.google.com/apps-script/">here</a>
 
 <hr>
