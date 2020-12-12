@@ -11,6 +11,7 @@ We can add what we've previously seen, such as title, and date, at the end we'll
 `function myFunction() {`
   
 `var event = CalendarApp.getDefaultCalendar().createAllDayEvent('Set new goals for 2021!', new Date(January 1, 2021),`
+
 `{location: 'Home'})`
 
 Here are some more options that you can add;
