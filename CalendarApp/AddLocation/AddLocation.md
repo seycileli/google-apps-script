@@ -13,7 +13,7 @@ We can add what we've previously seen, such as title, and date, at the end we'll
 `var event = CalendarApp.getDefaultCalendar().createAllDayEvent('Set new goals for 2021!', new Date(January 1, 2021),`
 `{location: 'Home'})`
 
-Let's take a look at what else we can add within the advanced parameters besides the location
+Here are some more options that you can add;
 
 <table>
   <tr>
@@ -42,6 +42,9 @@ Let's take a look at what else we can add within the advanced parameters besides
     <td>whether to send invitation emails (default: false)</td>
   </tr>
 </table>
+
+<a href="https://developers.google.com/apps-script/reference/calendar/calendar-app#createalldayeventtitle,-date,-options">Source</a>
+
 <hr>
 <h1>More info:</h1>
 This is a simple 'getting started' tutorial.
