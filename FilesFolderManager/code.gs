@@ -27,3 +27,9 @@ function gDriveManager() {
     Logger.log(e);
   }
 }
+
+function searchFolders(key) {
+  const folders = DriveApp
+  .searchFolders('title contains "' + key +'" ');
+  
+}
