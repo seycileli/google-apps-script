@@ -31,5 +31,13 @@ function gDriveManager() {
 function searchFolders(key) {
   const folders = DriveApp
   .searchFolders('title contains "' + key +'" ');
-  
-}
+  const temp = [];
+
+  while (folders.hasNext()) {
+    const folder = folders.next();
+    const obj = {
+      name: folder.getName(),
+      id: folder.getId()
+    }
+    temp.push(obj);
+  }
