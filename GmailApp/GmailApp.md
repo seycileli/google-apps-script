@@ -1,4 +1,4 @@
-<h1 align="center">Google Apps Script Class GmailApp</h1>
+<h1>Google Apps Script Class GmailApp</h1>
 <!-- <h1>Class GmailApp</h1> -->
 
 
