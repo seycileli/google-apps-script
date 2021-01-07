@@ -40,4 +40,16 @@ function searchFolders(key) {
       id: folder.getId()
     }
     temp.push(obj);
+
+/* 
+  We can also do the following within the while-loop:
+
+  const folder = folders.next();
+  const obj = accounts(folder);
+  obj.type = 'folder';
+  temp.push(obj);
+*/
+
   }
+  return JSON.stringify(temp);
+}
